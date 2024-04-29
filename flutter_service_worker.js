@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "eccba22a6a365f6058a6a62e95f11ff3",
+  "assets/AssetManifest.json": "e39e7d3a65d87762abbd1958b39fcdf2",
 "assets/assets/fonts/Cairo/Cairo-Black.ttf": "4691baaaab6b5ad5a7f8fafe46b0ad02",
 "assets/assets/fonts/Cairo/Cairo-Bold.ttf": "e558b6a116119d88b796afd3254cc864",
 "assets/assets/fonts/Cairo/Cairo-ExtraBold.ttf": "6204e46edfdb3ba1955021289dc06bd5",
@@ -37,6 +37,7 @@ const RESOURCES = {
 "assets/assets/pro_logo/hss.png": "8c8aa945f7ec031e37710edd3f531618",
 "assets/assets/pro_logo/innovation.png": "0348773d8714ab72af8954d21abca110",
 "assets/assets/pro_logo/manpower.png": "135744094e00cb92d7ff079406890f18",
+"assets/assets/pro_logo/nostalgia.png": "767068970626121cd91bf7f70e11d15a",
 "assets/assets/pro_logo/recovery.png": "dd36d052f263cf5b479b0e679ac6c163",
 "assets/assets/pro_logo/stadiums_sync.png": "b68552eb483ad9ffef9568cfccec9761",
 "assets/assets/pro_logo/tripjetset.png": "c2f65fb440345428404491b6ac18a36f",
@@ -59,9 +60,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "8e9b17642c128167d6ab176c49ba74f3",
 "icons/Icon-maskable-192.png": "045c499a1acb1ba8e80269f8a00c0170",
 "icons/Icon-maskable-512.png": "8e9b17642c128167d6ab176c49ba74f3",
-"index.html": "14df7a4f55913c0483aea236e38c410c",
-"/": "14df7a4f55913c0483aea236e38c410c",
-"main.dart.js": "a1a0825532dec6945f3a30ab27a407ae",
+"index.html": "aa16caf4c0db0d07903cdeb0a34fe21f",
+"/": "aa16caf4c0db0d07903cdeb0a34fe21f",
+"main.dart.js": "8b096315f6601cb67304282c33ef79f6",
 "manifest.json": "c82418befaa058a2c14ff39f0e540b8d",
 "splash/img/dark-1x.png": "317455c577a8fe7055afbaffe2249ea1",
 "splash/img/dark-2x.png": "114e175cfb3da2684fd6f871985aeead",
