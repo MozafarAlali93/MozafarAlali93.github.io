@@ -1,66 +1,209 @@
-<!DOCTYPE html><html><head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"
+    />
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+    <title>Mozafar Alali - Mobile Application Developer | Flutter Expert</title>
+    <meta
+      name="title"
+      content="Mozafar Alali - Mobile Application Developer | Flutter Expert"
+    />
+    <meta
+      name="description"
+      content="Professional mobile application developer specializing in Flutter, iOS, and Android development. Explore my portfolio showcasing innovative mobile solutions and cross-platform apps."
+    />
+    <meta
+      name="keywords"
+      content="Flutter Developer, Mobile App Developer, iOS Developer, Android Developer, Cross-platform Development, Mozafar Alali, Mobile Applications, Portfolio"
+    />
+    <meta name="author" content="Mozafar Alali" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mozafaralali.com/" />
+    <meta
+      property="og:title"
+      content="Mozafar Alali - Mobile Application Developer"
+    />
+    <meta
+      property="og:description"
+      content="Professional mobile application developer specializing in Flutter, iOS, and Android development. Explore my portfolio showcasing innovative mobile solutions."
+    />
+    <meta
+      property="og:image"
+      content="https://mozafaralali.com/icons/Icon-512.png"
+    />
+    <meta property="og:site_name" content="Mozafar Alali Portfolio" />
+    <meta property="og:locale" content="en_US" />
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Mobile  Application Developer">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://mozafaralali.com/" />
+    <meta
+      name="twitter:title"
+      content="Mozafar Alali - Mobile Application Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Professional mobile application developer specializing in Flutter, iOS, and Android development."
+    />
+    <meta
+      name="twitter:image"
+      content="https://mozafaralali.com/icons/Icon-512.png"
+    />
+    <meta name="twitter:creator" content="@MozafarAlali" />
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Mozafar Alali">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Mozafar Portfolio" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icons/Icon-512.png" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="icons/Icon-192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="icons/Icon-512.png"
+    />
 
-  <title>Mozafar Alali</title>
-  <link rel="manifest" href="manifest.json">
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json" />
 
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2586217333";
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer=""></script>
-  <link rel="stylesheet" type="text/css" href="splash/style.css">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <script src="splash/splash.js"></script>
-</head>
-<body>  <picture id="splash">
-      <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
-      <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
-      <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
-  </picture>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0175C2" />
+    <meta name="msapplication-TileColor" content="#0175C2" />
+    <meta name="msapplication-navbutton-color" content="#0175C2" />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mozafaralali.com/" />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+          Cantarell, sans-serif;
+      }
+
+      /* Loading Screen */
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+
+      #loading.loaded {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .loader {
+        width: 60px;
+        height: 60px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid #ffffff;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
         }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .loading-text {
+        margin-top: 24px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+      }
+
+      /* Accessibility: Respect prefers-reduced-motion */
+      @media (prefers-reduced-motion: reduce) {
+        .loader {
+          animation: none;
+          border-top-color: #ffffff;
+        }
+      }
+
+      /* Hide loading on no-script */
+      noscript #loading {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading">
+      <div class="loader"></div>
+      <div class="loading-text">Loading Portfolio...</div>
+    </div>
+
+    <!-- No Script Fallback -->
+    <noscript>
+      <div style="padding: 40px; text-align: center; font-family: sans-serif">
+        <h1>JavaScript Required</h1>
+        <p>Please enable JavaScript in your browser to view this portfolio.</p>
+      </div>
+    </noscript>
+
+    <!-- Flutter App -->
+    <script>
+      // Hide loading screen when Flutter is ready
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          const loading = document.getElementById("loading");
+          if (loading) {
+            loading.classList.add("loaded");
+            setTimeout(() => loading.remove(), 500);
+          }
+        }, 1000);
       });
-    });
-  </script>
-
-
-
-</body></html>
+    </script>
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
+</html>

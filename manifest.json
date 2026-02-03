@@ -1,35 +1,69 @@
 {
-    "name": "Mozafar Alali",
-    "short_name": "Mozafar Alali",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Mobile  Application Developer",
-    "orientation": "portrait-primary",
-    "prefer_related_applications": false,
-    "icons": [
+  "name": "Mozafar Alali - Mobile Application Developer",
+  "short_name": "Mozafar Portfolio",
+  "start_url": ".",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0175C2",
+  "description": "Professional mobile application developer specializing in Flutter, iOS, and Android development. Explore innovative mobile solutions and cross-platform apps.",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "categories": ["portfolio", "business", "productivity"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "iarc_rating_id": "",
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "View portfolio homepage",
+      "url": "/",
+      "icons": [
         {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-maskable-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
-            "src": "icons/Icon-maskable-512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
+          "src": "icons/Icon-192.png",
+          "sizes": "192x192"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "View my projects",
+      "url": "/#/projects",
+      "icons": [
+        {
+          "src": "icons/Icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
 }
