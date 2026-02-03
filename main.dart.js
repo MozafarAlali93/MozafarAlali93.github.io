@@ -81027,7 +81027,7 @@ i.push(B.QM)
 i.push(A.agg(A.Kz(A.I8(this.a37(a,m,l)),A.c3(8e5,0),A.c3(n,0)),0.3,A.c3(n,0),0))
 return A.ik(A.jN(new A.fL(B.AT,new A.ea(B.GD,A.jP(i,B.as,B.cx,B.b_),o),o),o,o),k.b,j)},
 a36(a){var s,r=null,q=A.b([new A.dh(5,B.bY,a.b.cX(0.3),B.i,30)],t.sq)
-q=A.Kz(A.I8(A.hZ(r,new A.Jf(A.azu("108450469.jpg",new A.ZK(a),B.lD),r),B.x,r,r,new A.cE(r,r,r,r,q,r,B.dw),r,160,r,r,r,r,160)),r,A.c3(6e5,0))
+q=A.Kz(A.I8(A.hZ(r,new A.Jf(A.azu("assets/images/108450469.jpg",new A.ZK(a),B.lD),r),B.x,r,r,new A.cE(r,r,r,r,q,r,B.dw),r,160,r,r,r,r,160)),r,A.c3(6e5,0))
 s=A.c3(6e5,0)
 return q.E6(new A.O0(r,!0,r,s,r,B.N1,B.MO))},
 a37(a,b,c){return A.NU(A.b([new A.vW("View Projects",!0,new A.ZL(a),b,c,null),B.ky,new A.vW("Download CV",!1,new A.ZM(),b,c,null)],t.E),B.as,B.cx,B.b_)}}
